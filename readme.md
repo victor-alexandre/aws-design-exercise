@@ -12,7 +12,7 @@ Neste documento será apresentado uma proposta de solução aos itens abaixo:
 
 Descrição: 
 
-Nessa arquitetura os dados modificados no banco transacional serão capturados pelo DMS (Database Migration Servive), item 2; serão direcionados para o Kinesis, item 3, em forma de stream; processados por uma das ferramentas do item 4, sendo o Glue a que apresenta melhor custo benefício (caso o volume de dados seja muito alto será melhor utilizar outra ferramenta como o EMR ou o Apache Flink); armazenados em uma das opções do item 5 sendo o s3 + athena a mais barata e, por último, visualizados por uma ferramenta de BI.
+Nessa arquitetura 1 os dados modificados no banco transacional serão capturados pelo DMS (Database Migration Servive), item 2; serão direcionados para o Kinesis, item 3, em forma de stream; processados por uma das ferramentas do item 4, sendo o Glue a que apresenta melhor custo benefício (caso o volume de dados seja muito alto será melhor utilizar outra ferramenta como o EMR ou o Apache Flink); armazenados em uma das opções do item 5 sendo o s3 + athena a mais barata e, por último, visualizados por uma ferramenta de BI.
 
 Prós: 
   - Responde o exercício proposto pelo teste, pois provê uma arquitetura real time.
@@ -30,6 +30,11 @@ Referências:
 - [https://aws.amazon.com/blogs/database/load-cdc-data-from-relational-databases-to-amazon-kinesis-using-database-migration-service/](https://aws.amazon.com/blogs/database/load-cdc-data-from-relational-databases-to-amazon-kinesis-using-database-migration-service/)
 - [https://aws.amazon.com/blogs/database/use-the-aws-database-migration-service-to-stream-change-data-to-amazon-kinesis-data-streams/](https://aws.amazon.com/blogs/database/use-the-aws-database-migration-service-to-stream-change-data-to-amazon-kinesis-data-streams/)
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 #### Proposta de Solução 2: Batch D-1
 
@@ -37,7 +42,7 @@ Referências:
 
 Descrição: 
 
-Nessa arquitetura os dados completos do banco transacional serão enviados a um bucket s3, uma vez por dia; esse evento será capturado pelo Event Bridge, item 3, que irá disparar o processamento do pipeline; aplicará as transformações utilizando o Glue, item 4; salvará os dados em um bucket, item 5, que ficará acessível via athena, item 6, e poderão ser visualizados por uma ferramenta de BI, item 7.
+Nessa arquitetura 2 os dados completos do banco transacional serão enviados a um bucket s3, uma vez por dia; esse evento será capturado pelo Event Bridge, item 3, que irá disparar o processamento do pipeline; aplicará as transformações utilizando o Glue, item 4; salvará os dados em um bucket, item 5, que ficará acessível via athena, item 6, e poderão ser visualizados por uma ferramenta de BI, item 7.
 
 Prós: 
   - Mais barato de se implementar e manter:
@@ -53,6 +58,12 @@ Cons:
 Referências:
 
 - Eu.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### 2. Exemplo airflow
 
