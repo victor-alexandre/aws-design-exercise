@@ -4,6 +4,13 @@ Neste documento será apresentado uma proposta de solução aos itens abaixo:
 - [Desenho e descrição de injestão e processamento em real time](#desenho-e-descrição-de-injestão-e-processamento-em-real-time)
 - [Exemplo airflow](#exemplo-airflow)
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+_______
+
 ### 1. Desenho e descrição de injestão e processamento em real time
 
 #### Proposta de Solução 1: Streaming
@@ -35,6 +42,7 @@ Referências:
 &nbsp;
 &nbsp;
 &nbsp;
+_______
 
 #### Proposta de Solução 2: Batch D-1
 
@@ -64,6 +72,7 @@ Referências:
 &nbsp;
 &nbsp;
 &nbsp;
+_______
 
 ### 2. Exemplo airflow
 
