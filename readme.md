@@ -16,9 +16,9 @@ a
 
 Referências:
 
-[https://pages.awscloud.com/Customer-Showcase-Perform-Real-time-ETL-from-IoT-Devices-into-your-Data-Lake-with-Amazon-Kinesis_2019_0307-ABD_OD.html](https://pages.awscloud.com/Customer-Showcase-Perform-Real-time-ETL-from-IoT-Devices-into-your-Data-Lake-with-Amazon-Kinesis_2019_0307-ABD_OD.html)
-[https://aws.amazon.com/blogs/database/load-cdc-data-from-relational-databases-to-amazon-kinesis-using-database-migration-service/](https://aws.amazon.com/blogs/database/load-cdc-data-from-relational-databases-to-amazon-kinesis-using-database-migration-service/)
-[https://aws.amazon.com/blogs/database/use-the-aws-database-migration-service-to-stream-change-data-to-amazon-kinesis-data-streams/](https://aws.amazon.com/blogs/database/use-the-aws-database-migration-service-to-stream-change-data-to-amazon-kinesis-data-streams/)
+- [https://pages.awscloud.com/Customer-Showcase-Perform-Real-time-ETL-from-IoT-Devices-into-your-Data-Lake-with-Amazon-Kinesis_2019_0307-ABD_OD.html](https://pages.awscloud.com/Customer-Showcase-Perform-Real-time-ETL-from-IoT-Devices-into-your-Data-Lake-with-Amazon-Kinesis_2019_0307-ABD_OD.html)
+- [https://aws.amazon.com/blogs/database/load-cdc-data-from-relational-databases-to-amazon-kinesis-using-database-migration-service/](https://aws.amazon.com/blogs/database/load-cdc-data-from-relational-databases-to-amazon-kinesis-using-database-migration-service/)
+- [https://aws.amazon.com/blogs/database/use-the-aws-database-migration-service-to-stream-change-data-to-amazon-kinesis-data-streams/](https://aws.amazon.com/blogs/database/use-the-aws-database-migration-service-to-stream-change-data-to-amazon-kinesis-data-streams/)
 
 
 #### Proposta de Solução 2: Batch D-1
