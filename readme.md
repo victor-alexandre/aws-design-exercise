@@ -1,8 +1,8 @@
 # Teste Prático
 
 Neste documento será apresentado uma proposta de solução aos itens abaixo:
-- [Desenho e descrição de injestão e processamento em real time](#desenho-e-descrição-de-injestão-e-processamento-em-real-time)
-- [Exemplo airflow](#exemplo-airflow)
+- [Desenho e descrição de injestão e processamento em real time](#1-desenho-e-descrição-de-injestão-e-processamento-em-real-time)
+- [Exemplo airflow](#2-exemplo-airflow)
 
 &nbsp;
 &nbsp;
@@ -11,7 +11,7 @@ Neste documento será apresentado uma proposta de solução aos itens abaixo:
 &nbsp;
 _______
 
-### Desenho e descrição de injestão e processamento em real time
+### 1. Desenho e descrição de injestão e processamento em real time
 
 #### Proposta de Solução 1: Streaming
 
@@ -74,7 +74,7 @@ Referências:
 &nbsp;
 _______
 
-### Exemplo airflow
+### 2. Exemplo airflow
 
 O código no airflow executa uma dag que é composta por três atividades, uma que pega informaçoes de um personagem da disney de id par, outro que faz o mesmo para um id ímpar e, por último, uma atividade que junta as duas informações em um arquivo e salva localmente.
 
