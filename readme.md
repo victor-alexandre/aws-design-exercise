@@ -19,9 +19,8 @@ Prós:
     
 Cons: 
   - Mais caro de se implementar e manter:
-    
-    	- Componentes que trabalham com stream são mais caros;
-      - Mais tempo levado a desenvolver, debugar, testar e manter.
+    - Componentes que trabalham com stream são mais caros;
+    - Mais tempo levado a desenvolver, debugar, testar e manter.
 
 
 
@@ -42,10 +41,9 @@ Nessa arquitetura os dados completos do banco transacional serão enviados a um 
 
 Prós: 
   - Mais barato de se implementar e manter:
-    
-    	- Componentes que trabalham com batch são mais baratos;
-      - Menos tempo levado a desenvolver, debugar, testar e manter;
-      - Menos tempo processando dados, pois o pipeline não ficará executando constantemente.
+    - Componentes que trabalham com batch são mais baratos;
+    - Menos tempo levado a desenvolver, debugar, testar e manter;
+    - Menos tempo processando dados, pois o pipeline não ficará executando constantemente.
   - Resolve o problema de forma mais simples
 
 Cons: 
