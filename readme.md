@@ -9,9 +9,13 @@ aaaaaaaaaaaaaaaa
 a
 
 ### 1. Desenho e descrição de injestão e processamento em real time
+
+##### Proposta de Solução 1: Streaming
+
 ![Design 1](https://raw.githubusercontent.com/victor-alexandre/aws-design-exercise/main/Proposta%20de%20solu%C3%A7%C3%A3o%201.png)
 
 
+##### Proposta de Solução 2: Batch D-1
 
 ![Design 2](https://raw.githubusercontent.com/victor-alexandre/aws-design-exercise/main/Proposta%20de%20solu%C3%A7%C3%A3o%202.png)
 
