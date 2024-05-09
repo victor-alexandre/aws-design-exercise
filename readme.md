@@ -25,6 +25,9 @@ Referências:
 
 ![Design 2](https://raw.githubusercontent.com/victor-alexandre/aws-design-exercise/main/Proposta%20de%20solu%C3%A7%C3%A3o%202.png)
 
+Referências:
+
+- Eu.
 
 ### 2. Exemplo airflow
 
