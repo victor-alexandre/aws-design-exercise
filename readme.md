@@ -4,10 +4,6 @@ Neste documento será apresentado uma proposta de solução às questões abaixo
 - [Desenho e descrição de injestão e processamento em real time](#desenho-e-descrição-de-injestão-e-processamento-em-real-time)
 - [Exemplo airflow](#exemplo-airflow)
 
-
-aaaaaaaaaaaaaaaa
-a
-
 ### 1. Desenho e descrição de injestão e processamento em real time
 
 #### Proposta de Solução 1: Streaming
@@ -32,4 +28,4 @@ Referências:
 ### 2. Exemplo airflow
 
 O código no airflow executa uma dag que é composta por três atividades, uma que pega informaçoes de um personagem da disney de id par, outro que faz o mesmo para um id ímpar e, por último, uma atividade que junta as duas informações em um arquivo e salva localmente.
-
+link: [exemplo_airflow](https://github.com/victor-alexandre/aws-design-exercise/blob/main/fetch_disney_character_info.py)
