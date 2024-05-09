@@ -61,7 +61,7 @@ Prós:
 
 Cons: 
   - Não resolve o problema da maneira pedida.
-  - Existirá o atraso de 1 dia nas análises (creio que isso não gerará nenhuma degradação na hora de tomada de deciões, dado o domínio da aplicaão, entretanto, para uma análise justa estou elencando este item como um ponto negativo).
+  - Existirá o atraso de 1 dia nas análises (creio que isso não gerará nenhuma degradação na hora de tomada de deciões, dado o domínio da aplicação, entretanto, para uma análise justa estou elencando este item como um ponto negativo).
 
 Referências:
 
